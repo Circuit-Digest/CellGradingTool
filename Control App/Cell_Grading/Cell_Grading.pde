@@ -31,7 +31,7 @@
  * Author: Aswinth Raj
  * Date: 3 October 2024
  *
- * For commercial use or licensing requests, please contact [Your Contact Info].
+ * For commercial use or licensing requests, please contact [contact@circuitdigest.com].
  */
 
 PImage img;
