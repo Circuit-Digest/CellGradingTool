@@ -1,0 +1,374 @@
+(footprint "SOIC127P600X175-9N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "8ESOP")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "dd79423c-db27-4001-a368-ea049fd4337b")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Value" "TP4056"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "393fc4fe-9868-4e59-ae71-4a822c94a0a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "tp4056:SOIC127P600X175-9N"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37448bf7-f58a-4151-822e-fea5209d72c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1906261508_Nanjing-Extension-Microelectronics-TP4056-42-ESOP8_C16581.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b589575-1b8e-40a2-8116-8bf6b20d3505")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "PMIC - Battery Management ESOP-8 RoHS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "efffed6c-b91f-494c-8139-fa5d2ad8fc30")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "1.75"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d654db6f-c285-4af1-892e-84ed5b3d36fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a2becb2-505d-425d-adff-e7afdf8af0f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "217373b4-82c5-4372-ab45-4c3bb43d2839")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Nanjing Extension Microelectronics"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d42ff7b-1772-4a99-b174-1ca29e28c5f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "TP4056-42-ESOP8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3d84063-cf85-4b3f-9f4b-e358036de21b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ccec4de-0caa-4d91-911e-63befe992a6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6c9dc58-fcb6-4756-86c3-f56725453022")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Testing Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f3e8073-eefe-4fc8-b55c-db304735eb63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Testing Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7800ca3-0a1a-477e-9976-0a993d6607db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part #" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7cd0a5ce-0683-4d56-b2c2-3befa92eec67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.475 -2.605)
+		(end -1.95 -2.605)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79f2397c-e778-4312-8834-66aa75e2b991")
+	)
+	(fp_line
+		(start -3.725 -2.8)
+		(end 3.725 -2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b2e2a4d5-78ff-42da-8ff1-7b7b8aa5908c")
+	)
+	(fp_line
+		(start -3.725 2.8)
+		(end -3.725 -2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "11ae57a1-bb59-4e67-beca-b21d93f74922")
+	)
+	(fp_line
+		(start 3.725 -2.8)
+		(end 3.725 2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0c13262a-4e48-464a-a77c-0693fbebe5b0")
+	)
+	(fp_line
+		(start 3.725 2.8)
+		(end -3.725 2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3fcdd632-ea2b-434a-8107-6cd98cca90c4")
+	)
+	(fp_line
+		(start -1.95 -2.45)
+		(end 1.95 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4f99a88d-4e89-44f3-a142-901a98822d7f")
+	)
+	(fp_line
+		(start -1.95 -1.18)
+		(end -0.68 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e8ab61c3-e2e8-48aa-9d96-dcd23446550d")
+	)
+	(fp_line
+		(start -1.95 2.45)
+		(end -1.95 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d3d91519-e148-4e2c-a9cc-a482f89c1c43")
+	)
+	(fp_line
+		(start 1.95 -2.45)
+		(end 1.95 2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "57780b37-3fc4-4abd-b5b7-c675c281ab8a")
+	)
+	(fp_line
+		(start 1.95 2.45)
+		(end -1.95 2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e8c8e91e-d7b8-4d37-8296-83222fcfc738")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a5d45896-a928-4e5b-b7ab-bda4b1a86341")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.712 -1.905 90)
+		(size 0.7 1.525)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "89f71fdf-7d56-4c44-beaa-768ac7ea378e")
+	)
+	(pad "2" smd rect
+		(at -2.712 -0.635 90)
+		(size 0.7 1.525)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8510f099-5bde-4534-9fb2-c42d195fbef6")
+	)
+	(pad "3" smd rect
+		(at -2.712 0.635 90)
+		(size 0.7 1.525)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f4c6e45a-6918-49be-bdee-68c5fa50cb2d")
+	)
+	(pad "4" smd rect
+		(at -2.712 1.905 90)
+		(size 0.7 1.525)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "46d011b0-334a-45f3-91fb-f0306482b81f")
+	)
+	(pad "5" smd rect
+		(at 2.712 1.905 90)
+		(size 0.7 1.525)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "45959198-b7db-47e9-8e62-9f58e2ed40aa")
+	)
+	(pad "6" smd rect
+		(at 2.712 0.635 90)
+		(size 0.7 1.525)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fb8fcef6-db1b-4bc8-bdc4-fedd6d7f48a0")
+	)
+	(pad "7" smd rect
+		(at 2.712 -0.635 90)
+		(size 0.7 1.525)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "42ecd3c1-6419-4216-9356-601d9021dcca")
+	)
+	(pad "8" smd rect
+		(at 2.712 -1.905 90)
+		(size 0.7 1.525)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5c0ddcd1-69e3-4b41-b7bf-5c4339ccd309")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 2.513 3.402)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "539118c4-7bfd-4592-a05f-3339888fc8c0")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SO-8_3.9x4.9mm_P1.27mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

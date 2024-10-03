@@ -1,0 +1,189 @@
+(footprint "Tactile 3x4x2mm TS-A010"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.01 -0.03 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a35aebd4-1276-418f-bbab-2ac0850dcd0e")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Value" "RST"
+		(at 0 3.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f7611cfe-c772-46b8-bee9-906636a6fc09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "3x4x2:Tactile 3x4x2mm TS-A010"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45cf651e-13cb-45b8-99d8-271ab6552850")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4da2282-da71-41fd-a367-33ab5cee1fe1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Push button switch, generic, two pins"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30e0cc70-e52f-4ec7-b3b3-0294ff811f10")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC Part #" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "347c03c2-ed42-47f1-85f7-532e2df4a2fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.1 -1.5)
+		(end 2.1 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "86915f62-feb5-4203-9674-4e2451bd45f9")
+	)
+	(fp_line
+		(start -2.1 0)
+		(end -2.1 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "60f5f88d-b3da-4281-a652-709776e75569")
+	)
+	(fp_line
+		(start -2.1 1.5)
+		(end -2.1 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ec621f18-7347-41a9-b587-8a2059ed334b")
+	)
+	(fp_line
+		(start 2.1 -1.5)
+		(end 2.1 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ecbfebc3-7cda-456c-b8e3-080af341ac5d")
+	)
+	(fp_line
+		(start 2.1 0)
+		(end 2.1 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "49c28f4b-9b5f-426b-aa47-7214775ea8a0")
+	)
+	(fp_line
+		(start 2.1 1.5)
+		(end -2.1 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8cd79be5-2fbf-4954-a009-63c0715ca626")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fa1a85b3-83f3-40cf-8969-037cc1a69366")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -0.9)
+		(size 0.75 0.75)
+		(drill 0.75)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "e926e29d-1897-4a10-9897-6b155fa46866")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0.9)
+		(size 0.75 0.75)
+		(drill 0.75)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "542fae34-3f66-4b5a-a9da-6aa2a694186e")
+	)
+	(pad "1" smd rect
+		(at -2.1 0)
+		(size 0.8 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "148c6216-3d6a-4f41-96b0-32708b539a9f")
+	)
+	(pad "2" smd rect
+		(at 2.1 0)
+		(size 0.8 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3c33f90f-f0e6-4ba7-804a-184f2ea36ede")
+	)
+	(model "/Users/semiconmediapvtltd/Desktop/Cellgrading/Lib/Kicad Lib/3x4x2.pretty/3x4x2mm - 2 Pad.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

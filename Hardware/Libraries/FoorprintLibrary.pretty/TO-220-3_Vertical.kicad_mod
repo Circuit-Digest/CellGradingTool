@@ -1,0 +1,306 @@
+(footprint "TO-220-3_Vertical"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
+	(tags "TO-220-3 Vertical RM 2.54mm")
+	(property "Reference" "REF**"
+		(at 2.54 -4.27 180)
+		(layer "F.SilkS")
+		(uuid "3fe56005-5d10-463e-bba8-21e93d81b204")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IRF540N"
+		(at 2.54 2.5 180)
+		(layer "F.Fab")
+		(uuid "9333a169-6355-4c01-8dbe-f6f1ff343d7f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30fc0e3b-7ca2-46f3-ba8f-02cf06b4d49a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f869ba4-c538-4c0b-bccb-7c69997a89d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae2b5473-e6c5-4574-aa4b-eafb7afec844")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC Part #" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "283fd8dd-e9b6-43a5-88f2-e4c65eb3c145")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.58 -3.27)
+		(end -2.58 1.371)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "371342a9-fea3-458d-833f-9071fc9af190")
+	)
+	(fp_line
+		(start -2.58 -3.27)
+		(end 7.66 -3.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "07c1c99e-f17f-4691-acc5-e519200483a0")
+	)
+	(fp_line
+		(start -2.58 -1.76)
+		(end 7.66 -1.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ab428d2-d432-45fd-b7fa-5bad5067dceb")
+	)
+	(fp_line
+		(start -2.58 1.371)
+		(end 7.66 1.371)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5d606892-1be7-4795-b43c-d603092c315a")
+	)
+	(fp_line
+		(start 0.69 -3.27)
+		(end 0.69 -1.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29d194d8-e0c2-46df-9e27-81153a2e8948")
+	)
+	(fp_line
+		(start 4.391 -3.27)
+		(end 4.391 -1.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a20624e3-89f7-4459-b1d8-af5e44598d97")
+	)
+	(fp_line
+		(start 7.66 -3.27)
+		(end 7.66 1.371)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca7b2d0b-83b1-4aaf-8510-569041f83fde")
+	)
+	(fp_line
+		(start -2.71 -3.4)
+		(end -2.71 1.51)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "abf45c53-8487-4215-857f-837a7cc08fe1")
+	)
+	(fp_line
+		(start -2.71 1.51)
+		(end 7.79 1.51)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e5d92170-a20f-48e2-b0c0-dd909d01290b")
+	)
+	(fp_line
+		(start 7.79 -3.4)
+		(end -2.71 -3.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8fb07d7e-b3c5-4130-8160-b18ba29480a5")
+	)
+	(fp_line
+		(start 7.79 1.51)
+		(end 7.79 -3.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "adbe6246-ce2a-4512-95bd-c2a7d83ca8ec")
+	)
+	(fp_line
+		(start -2.46 -3.15)
+		(end -2.46 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1ef61428-5ff6-413b-9c21-7942f1dd184c")
+	)
+	(fp_line
+		(start -2.46 -1.88)
+		(end 7.54 -1.88)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "085349e4-9a07-4bcc-b148-a0cdded95579")
+	)
+	(fp_line
+		(start -2.46 1.25)
+		(end 7.54 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "56ad54dc-b111-4677-921b-355a05c42b2d")
+	)
+	(fp_line
+		(start 0.69 -3.15)
+		(end 0.69 -1.88)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e8519941-9d12-4002-8887-39ea219ed5ec")
+	)
+	(fp_line
+		(start 4.39 -3.15)
+		(end 4.39 -1.88)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5a611117-f782-4845-9ee6-cf76d1c3b80a")
+	)
+	(fp_line
+		(start 7.54 -3.15)
+		(end -2.46 -3.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5f53d892-f0fb-41e9-aa52-b21d38d7bc0f")
+	)
+	(fp_line
+		(start 7.54 1.25)
+		(end 7.54 -3.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b4f93e3b-3d51-490b-8f49-c0b75aefd210")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 -4.27 180)
+		(layer "F.Fab")
+		(uuid "1f1105b2-ebca-445c-aa5a-4c7bff97dc11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.905 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "87ac9a50-b6a7-44e5-9bc0-5ad590d20607")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0)
+		(size 1.905 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c886a102-ac85-4b6b-b449-d2217ed3df37")
+	)
+	(pad "3" thru_hole oval
+		(at 5.08 0)
+		(size 1.905 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "30ab5dee-8fb6-4c93-bc0b-267ddc30b65e")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

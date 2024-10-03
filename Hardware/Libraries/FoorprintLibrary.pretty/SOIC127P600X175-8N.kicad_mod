@@ -1,0 +1,343 @@
+(footprint "SOIC127P600X175-8N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "8-pin NSOIC")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(uuid "65078337-1173-4807-a406-39c73d56874a")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Value" "SP485REN-L_TR"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "718bc939-932c-4785-8c1f-4bbb9a0bd22a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "SP485:SOIC127P600X175-8N"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0526b634-eb9c-4506-b230-79fc8b2d3d38")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.maxlinear.com/ds/sp485r.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45ffeb52-bbc9-4107-814e-adc0de02cbb5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "MAX LINEAR - SP485REN-L/TR - RS422/RS485 Transceiver, 1 Driver, 1 Receiver, 4.75V to 5.25V Supply, NSOIC-8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5517dc9-7720-456d-a45f-a61a0b6b7644")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "1.75"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fa4e91c-a15d-4a43-be2e-b1e4274922ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "701-SP485REN-L/TR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b0f6c6c9-d637-4e01-889a-dcf970dbb675")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/MaxLinear/SP485REN-L-TR?qs=3EMgrMjM0fad5o2ZErH7xg%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc49ce99-c9d4-40d0-8066-68ff24feacc6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "MaxLinear, Inc."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c88460a0-507e-4f30-be02-ff363a580806")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "SP485REN-L/TR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da3f4147-1c46-4b9d-a602-44b17de41ab4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.45 -2.58)
+		(end -1.95 -2.58)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b0e61caa-849d-4139-90e5-477e25c4b3b3")
+	)
+	(fp_line
+		(start -1.6 -2.45)
+		(end 1.6 -2.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "283044f2-610d-49a8-8d31-480868a381c0")
+	)
+	(fp_line
+		(start -1.6 2.45)
+		(end -1.6 -2.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "493682fd-8694-42dd-9747-b82f4b4dfc47")
+	)
+	(fp_line
+		(start 1.6 -2.45)
+		(end 1.6 2.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d9bda14-4e18-425d-a825-e43321002f6b")
+	)
+	(fp_line
+		(start 1.6 2.45)
+		(end -1.6 2.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65a75e6e-41f9-42fe-8e91-5b6bdbda336b")
+	)
+	(fp_line
+		(start -3.7 -2.7)
+		(end 3.7 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a778a948-d14c-4aaf-96dc-cf93615eedb5")
+	)
+	(fp_line
+		(start -3.7 2.7)
+		(end -3.7 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e714a303-e6d1-440d-b86f-947992a5d13b")
+	)
+	(fp_line
+		(start 3.7 -2.7)
+		(end 3.7 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b04ae3b0-cdfb-4a35-82b7-825493589837")
+	)
+	(fp_line
+		(start 3.7 2.7)
+		(end -3.7 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "341962e1-22e3-4538-8c24-de4a78aabaa0")
+	)
+	(fp_line
+		(start -1.95 -2.45)
+		(end 1.95 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1122e54f-624c-46f5-9057-8ea861f4a3f2")
+	)
+	(fp_line
+		(start -1.95 -1.18)
+		(end -0.68 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b9870fa0-84de-4a9d-9964-755b77f9aca3")
+	)
+	(fp_line
+		(start -1.95 2.45)
+		(end -1.95 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe1f5c21-3fa9-48af-8ab6-268ed6a29394")
+	)
+	(fp_line
+		(start 1.95 -2.45)
+		(end 1.95 2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bebb79ff-2e36-4610-bbb8-5bdaffb8446c")
+	)
+	(fp_line
+		(start 1.95 2.45)
+		(end -1.95 2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cf1148f9-2bbb-4dd8-b253-f7518aa6b324")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "96beb182-93cc-477e-8bdd-9a4cf6164f9d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.7 -1.905 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "242b3209-ea13-4e9b-a9a6-6bea4f4865c1")
+	)
+	(pad "2" smd rect
+		(at -2.7 -0.635 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e396cbf2-6364-46fc-b7d8-7a5bc7b44182")
+	)
+	(pad "3" smd rect
+		(at -2.7 0.635 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0a27c37c-bea5-4bec-a817-f17d8bcd6097")
+	)
+	(pad "4" smd rect
+		(at -2.7 1.905 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3a5f6332-81a1-4492-b6ae-1832a201b5fb")
+	)
+	(pad "5" smd rect
+		(at 2.7 1.905 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "31c9b8a2-09da-405c-a4cc-ded6c274ed86")
+	)
+	(pad "6" smd rect
+		(at 2.7 0.635 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f642b629-f7bf-45c3-b41e-a99d406b914a")
+	)
+	(pad "7" smd rect
+		(at 2.7 -0.635 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1f8fc228-bcaa-49cb-8511-07026c71aa55")
+	)
+	(pad "8" smd rect
+		(at 2.7 -1.905 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c781df1f-8a95-4286-a277-7adba9399cb9")
+	)
+	(model "/Users/semiconmediapvtltd/Desktop/Cellgrading/Lib/SP485REN-L_TR/3D/SP485REN-L_TR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,325 @@
+(footprint "SOT95P280X145-5N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "5 Lead Plastic Smal Outline Transistor (OT) (sot23)")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 1.375 0.07 -90)
+		(layer "F.SilkS")
+		(uuid "b0c0849a-aeca-4da7-b12b-543badd64548")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Value" "MCP6486T-E_OT"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2767b7fe-1b73-47c4-a837-6e8217d97b74")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "MCP6486T-E_OT:SOT95P280X145-5N"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9bb816c3-fcf4-45fc-9479-bd34e599ba60")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP6486-Family-Data-Sheet-DS20006679A.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90980aa7-9426-45a5-891f-88b4a6c08cad")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "10 MHz Op Amp with EMI Filtering"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57ed2392-5915-4c45-812e-36b59abf422c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "1.45"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77476179-4cba-4b6a-9c4d-5173a40e8579")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Microchip"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b88476b1-e309-416d-b800-006fcfd9e774")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "MCP6486T-E/OT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d46075c6-1a1a-4595-a5e9-b511a1f1d0ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "494-MCP6486T-E/OT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de3ae36d-3930-4d58-95ce-19215d559f4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP6486T-E-OT?qs=tlsG%2FOw5FFgg6%2FTtnB49Jg%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3bafb17a-4a9a-416c-8384-4f8772467f19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.825 -1.5)
+		(end -0.675 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec4f263b-2b3d-48f3-97ff-5d2c874254a9")
+	)
+	(fp_line
+		(start -0.325 -1.45)
+		(end 0.325 -1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ce30acb-6d77-496a-9bf5-a465050788d2")
+	)
+	(fp_line
+		(start -0.325 1.45)
+		(end -0.325 -1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d6630e4c-3538-4013-8e19-88045f0746cb")
+	)
+	(fp_line
+		(start 0.325 -1.45)
+		(end 0.325 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85dce7d0-7b46-4514-80c3-751195ed903c")
+	)
+	(fp_line
+		(start 0.325 1.45)
+		(end -0.325 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "871aef2b-ba60-4727-a6bd-0fd00d000ddc")
+	)
+	(fp_line
+		(start -2.075 -1.7)
+		(end 2.075 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dc3c9198-2e52-487b-9d04-349f3776ac92")
+	)
+	(fp_line
+		(start -2.075 1.7)
+		(end -2.075 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b8a1280b-6d9b-45ae-a32a-e2f9c5411e84")
+	)
+	(fp_line
+		(start 2.075 -1.7)
+		(end 2.075 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c5c85755-1884-461c-ba23-99b2dbb3ba65")
+	)
+	(fp_line
+		(start 2.075 1.7)
+		(end -2.075 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d385beb1-36ef-47ba-aa4a-6f8fe1e8a81d")
+	)
+	(fp_line
+		(start -0.8 -1.45)
+		(end 0.8 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4c7ff84d-a56c-4e4a-ae1d-e1726b50c519")
+	)
+	(fp_line
+		(start -0.8 -0.5)
+		(end 0.15 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2df83660-0953-463a-a32b-6a28ac7bbd2c")
+	)
+	(fp_line
+		(start -0.8 1.45)
+		(end -0.8 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a96199b2-2f5c-41e1-81ef-11091345a3e9")
+	)
+	(fp_line
+		(start 0.8 -1.45)
+		(end 0.8 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ecdf05cd-c284-4e17-9273-e6a4c0055cad")
+	)
+	(fp_line
+		(start 0.8 1.45)
+		(end -0.8 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "edeb065b-f6a2-49b1-b892-a05e4bddd99e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "b587a47c-5644-4bd8-b764-4b1d584b8bcd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.25 -0.95 90)
+		(size 0.6 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fd4209ba-3ac0-4555-94e8-547e4538a068")
+	)
+	(pad "2" smd rect
+		(at -1.25 0 90)
+		(size 0.6 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ead031ef-80eb-42a2-addd-bfdbd54cfcd0")
+	)
+	(pad "3" smd rect
+		(at -1.25 0.95 90)
+		(size 0.6 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "03020f7e-7d82-4ae9-aeee-8fbbc628dc8a")
+	)
+	(pad "4" smd rect
+		(at 1.25 0.95 90)
+		(size 0.6 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "30902b8b-f2eb-4723-95a6-82fe4985a5de")
+	)
+	(pad "5" smd rect
+		(at 1.25 -0.95 90)
+		(size 0.6 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "57e4d3a3-9b34-4056-ba2d-3fb033e48047")
+	)
+	(model "/Users/semiconmediapvtltd/Desktop/Cellgrading/Lib/MCP6486T-E_OT/3D/MCP6486T-E_OT.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

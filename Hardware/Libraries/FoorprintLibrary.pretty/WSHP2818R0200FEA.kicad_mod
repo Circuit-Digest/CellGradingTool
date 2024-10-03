@@ -1,0 +1,237 @@
+(footprint "WSHP2818R0200FEA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "WSHP2818_ffw")
+	(tags "Resistor")
+	(property "Reference" "REF**"
+		(at -0.173 0 0)
+		(layer "F.SilkS")
+		(uuid "35304167-5731-4910-9abe-1cfe8a0b472c")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" ".01 5W"
+		(at -0.173 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4d3d1bc8-d961-4dac-9e75-e8dc355245a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "R2818:WSHP2818R0200FEA"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3051000e-9644-4dd5-8038-2aa217d47518")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15f30027-2a54-401e-8afc-64b0b0d27a2e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0fd15a1b-8645-4765-8d43-33220f617f7d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC Part #" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e38ebe31-d878-420f-903a-9bc82a53e49e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.1 0)
+		(end -4.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d213cbb2-3d8f-4fbb-a580-3e9b8ac9078a")
+	)
+	(fp_line
+		(start -4.1 0.1)
+		(end -4.1 0.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7dbdba93-9ab7-41a4-9600-9ceb17b30b23")
+	)
+	(fp_arc
+		(start -4.1 0)
+		(mid -4.05 0.05)
+		(end -4.1 0.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c8231d0f-d874-4465-bf22-132423bf0d63")
+	)
+	(fp_arc
+		(start -4.1 0.1)
+		(mid -4.15 0.05)
+		(end -4.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "00458a4c-2cf8-4754-802d-c79dded09161")
+	)
+	(fp_line
+		(start -5.15 -3.55)
+		(end 4.805 -3.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c47af420-a1a0-413a-838f-e7113cc94363")
+	)
+	(fp_line
+		(start -5.15 3.55)
+		(end -5.15 -3.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "792b61f2-416c-47e4-bd2d-953add2d0065")
+	)
+	(fp_line
+		(start 4.805 -3.55)
+		(end 4.805 3.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7e96316a-7a2f-453f-a846-bb40652938ad")
+	)
+	(fp_line
+		(start 4.805 3.55)
+		(end -5.15 3.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e56b51b6-0572-47e3-abef-2e2d879dacc5")
+	)
+	(fp_line
+		(start -3.55 -2.3)
+		(end 3.55 -2.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "66caa900-2fd0-46c5-9b40-165efd614135")
+	)
+	(fp_line
+		(start -3.55 2.3)
+		(end -3.55 -2.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2a8a7230-2ba7-4f59-8282-afa66c319486")
+	)
+	(fp_line
+		(start 3.55 -2.3)
+		(end 3.55 2.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c2b1bd86-9e94-4884-8087-818c86897872")
+	)
+	(fp_line
+		(start 3.55 2.3)
+		(end -3.55 2.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4cdd7d55-fce8-45fd-bc33-d0ef0dfa5f64")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.173 0 0)
+		(layer "F.Fab")
+		(uuid "8b274da7-36af-4b89-9454-f2a90d473888")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.055 0)
+		(size 3.5 5.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8a44b436-1eb7-4dfc-b5cf-1d8ddc5dbe5e")
+	)
+	(pad "2" smd rect
+		(at 2.055 0)
+		(size 3.5 5.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3341dd5a-a62a-4ff2-99a7-9491c2eaa6e2")
+	)
+	(model "/Users/semiconmediapvtltd/Desktop/Cellgrading/Lib/WSHP2818R1000FEA/3D/WSHP2818R1000FEA.stp"
+		(offset
+			(xyz -0.1699999992 -2.299999918 0.1500000037)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

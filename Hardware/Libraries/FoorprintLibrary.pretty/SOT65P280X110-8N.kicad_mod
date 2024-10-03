@@ -1,0 +1,343 @@
+(footprint "SOT65P280X110-8N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "DDF0008A_2023")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 1.5275 2.075 180)
+		(layer "F.SilkS")
+		(uuid "e788aacb-2b30-43f6-a692-6a99c523dddd")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Value" "INA236BIDDFR"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a9855f92-f3f8-4aba-a94f-3115b00d0dfb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "INA236BIDDFR:SOT65P280X110-8N"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44139688-51e7-474d-81be-378ad05634d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=https://www.ti.com/lit/gpn/ina236"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "184cb803-76bc-4425-b36b-86186caa24a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Current & Power Monitors & Regulators 48-V, 16-bit ultraprecise IC output digital power monitor with alert in WCSP"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2af86da0-c8d8-4cd5-9ffe-d14d89d8aa9d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "1.1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9339e276-3d52-41c7-bd6a-f8bc67198c86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "595-INA236BIDDFR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e210ee1-dfa2-47fa-ba01-1ce21317edfe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA236BIDDFR?qs=17ckDYBRdelpXu8anct71w%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ad5a794-0376-4a51-aade-03bbe8fbcb54")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06dd00de-edcf-470f-a999-45fb19cd7f0f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "INA236BIDDFR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "166db6bc-2892-4cb6-82b4-5ee6c67cf299")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.85 -1.55)
+		(end -0.65 -1.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb094d70-2b1d-41bb-b7b9-fb3a924a3cdd")
+	)
+	(fp_line
+		(start -0.3 -1.45)
+		(end 0.3 -1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4efe122a-e19f-4a1a-8162-0caf9f1d1c49")
+	)
+	(fp_line
+		(start -0.3 1.45)
+		(end -0.3 -1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "75069109-5907-4acf-a892-78f8cb7f1eae")
+	)
+	(fp_line
+		(start 0.3 -1.45)
+		(end 0.3 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee48af29-c324-4710-a642-0e1f36fa6551")
+	)
+	(fp_line
+		(start 0.3 1.45)
+		(end -0.3 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a2c050f-96bd-48c7-9178-ab638b04821c")
+	)
+	(fp_line
+		(start -2.1 -1.725)
+		(end 2.1 -1.725)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e1d31da4-4c32-476a-be8a-03ba55b1882f")
+	)
+	(fp_line
+		(start -2.1 1.725)
+		(end -2.1 -1.725)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "37bb02a6-558a-4888-82f7-e90dd9b89985")
+	)
+	(fp_line
+		(start 2.1 -1.725)
+		(end 2.1 1.725)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ba01d0a6-7968-4a6d-8c9d-e0742d26d826")
+	)
+	(fp_line
+		(start 2.1 1.725)
+		(end -2.1 1.725)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e722b132-c193-49b2-92cf-94555f9cbe03")
+	)
+	(fp_line
+		(start -0.8 -1.45)
+		(end 0.8 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "09c66341-2d7c-48ab-9e9f-5cccab2370fc")
+	)
+	(fp_line
+		(start -0.8 -0.8)
+		(end -0.15 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cf9b5286-a899-4575-8a42-73bbb629fbea")
+	)
+	(fp_line
+		(start -0.8 1.45)
+		(end -0.8 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "45e76d68-4956-4a6b-9700-dbb510899dac")
+	)
+	(fp_line
+		(start 0.8 -1.45)
+		(end 0.8 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c3ae7a6-6e04-4487-b718-c99fb06003da")
+	)
+	(fp_line
+		(start 0.8 1.45)
+		(end -0.8 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "923d65c2-05b2-4023-95dd-949556548db3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "63d74123-0db1-40b3-a5a1-4da513efedd3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.25 -0.975 90)
+		(size 0.45 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "26b632b1-68d3-42c5-b2f8-f3d9a5dadbe3")
+	)
+	(pad "2" smd rect
+		(at -1.25 -0.325 90)
+		(size 0.45 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d27ccdd1-d916-4771-82c7-cf4d0467b6e6")
+	)
+	(pad "3" smd rect
+		(at -1.25 0.325 90)
+		(size 0.45 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a27e5fa2-5f5d-41b5-89c9-53220d2a2399")
+	)
+	(pad "4" smd rect
+		(at -1.25 0.975 90)
+		(size 0.45 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6ae95e8c-ce23-4200-8af6-6fa24fc7931e")
+	)
+	(pad "5" smd rect
+		(at 1.25 0.975 90)
+		(size 0.45 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3701970e-313a-47fc-b318-1372a15f6583")
+	)
+	(pad "6" smd rect
+		(at 1.25 0.325 90)
+		(size 0.45 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "45128b52-e4bb-443c-9016-b04e9e302045")
+	)
+	(pad "7" smd rect
+		(at 1.25 -0.325 90)
+		(size 0.45 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cd35c06a-d10f-4f6d-b0c8-e4ce008357cd")
+	)
+	(pad "8" smd rect
+		(at 1.25 -0.975 90)
+		(size 0.45 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2c779b82-5fc5-4be4-8625-cebc40bce876")
+	)
+	(model "/Users/semiconmediapvtltd/Desktop/Cellgrading/Lib/INA236BIDDFR/3D/INA236BIDDFR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

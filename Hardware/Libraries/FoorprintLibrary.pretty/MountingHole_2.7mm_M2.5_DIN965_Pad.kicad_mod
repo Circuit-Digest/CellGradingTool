@@ -1,0 +1,109 @@
+(footprint "MountingHole_2.7mm_M2.5_DIN965_Pad"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 2.7mm, M2.5, DIN965")
+	(tags "mounting hole 2.7mm m2.5 din965")
+	(property "Reference" "REF**"
+		(at 0 -3.35 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "606c6ce7-2220-4817-adf5-6c133161f037")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_2.7mm_M2.5_DIN965_Pad"
+		(at 0 3.35 0)
+		(layer "F.Fab")
+		(uuid "f2dd7934-2f25-4437-8ebb-eead3530020b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc13aa28-b882-4bbb-9f3d-c1d47dddfa45")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c575fa0-dfd9-43d7-a0ce-09ff6fff98a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "faad1126-5379-4dd2-b86c-50193857d944")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 2.35 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "5747410d-441a-42a9-bbb7-abdf1216964d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.6 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "bf8af084-3116-4789-b1fd-fe12720405c9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b9ea3ae7-b534-46ca-afac-7734157d4be6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 4.7 4.7)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "29c328e6-ec3d-4916-8361-9bdeee81bd34")
+	)
+)

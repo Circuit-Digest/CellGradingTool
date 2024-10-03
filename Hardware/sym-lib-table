@@ -1,0 +1,12 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "INA236BIDDFR")(type "KiCad")(uri "/Users/semiconmediapvtltd/Desktop/Cellgrading/Lib/INA236BIDDFR/INA236BIDDFR.kicad_sym")(options "")(descr ""))
+  (lib (name "ECS-_327-7-34B-C-TR")(type "KiCad")(uri "/Users/semiconmediapvtltd/Desktop/Cellgrading/Lib/32768/ECS-_327-7-34B-C-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "MCP6486T-E_OT")(type "KiCad")(uri "/Users/semiconmediapvtltd/Desktop/Cellgrading/Lib/MCP6486T-E_OT/MCP6486T-E_OT.kicad_sym")(options "")(descr ""))
+  (lib (name "STM32G071KBU3")(type "KiCad")(uri "/Users/semiconmediapvtltd/Desktop/Cellgrading/Lib/STM32G071KBU3/STM32G071KBU3.kicad_sym")(options "")(descr ""))
+  (lib (name "ADP7118AUJZ-3_3-R7")(type "KiCad")(uri "/Users/semiconmediapvtltd/Desktop/Cellgrading/Lib/ADP7118AUJZ-3.3-R7/ADP7118AUJZ-3_3-R7.kicad_sym")(options "")(descr ""))
+  (lib (name "SP485REN-L_TR")(type "KiCad")(uri "/Users/semiconmediapvtltd/Desktop/Cellgrading/Lib/SP485REN-L_TR/KiCad/SP485REN-L_TR.kicad_sym")(options "")(descr ""))
+  (lib (name "LTD-2601G")(type "KiCad")(uri "/Users/semiconmediapvtltd/Desktop/Cellgrading/Lib/LTD-2601G 2Digit 7segment/LTD-2601G.kicad_sym")(options "")(descr ""))
+  (lib (name "XT60PW-M")(type "KiCad")(uri "/Users/semiconmediapvtltd/Desktop/Cellgrading/Lib/XT60PW-M/XT60PW-M.kicad_sym")(options "")(descr ""))
+  (lib (name "SchematicLibrary")(type "KiCad")(uri "${KIPRJMOD}/Libraries/SchematicLibrary.kicad_sym")(options "")(descr ""))
+)

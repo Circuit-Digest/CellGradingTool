@@ -1,0 +1,320 @@
+(footprint "BarrelJack_Kycon_KLDX-0202-xC_Horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "DC Barrel Jack 2mm or 2.5mm center pin, https://www.kycon.com/Pub_Eng_Draw/KLDX-0202-AC%20&%20BC.pdf")
+	(tags "power jack 2mm 2.5mm KLDX-0202-BC KLDX-0202-AC")
+	(property "Reference" "REF**"
+		(at 0 -6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d40c2e57-f3cb-4b23-99e6-e8514b798978")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Value" "Barrel_Jack_Switch"
+		(at -6 7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f0a8b315-3656-4f9d-8dcd-b13a4d52b50e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Connector_BarrelJack:BarrelJack_Kycon_KLDX-0202-xC_Horizontal"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e92233e7-4282-4132-9ea0-ffabfe07a851")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab6b7375-a320-4d74-bd9a-7bd902a17238")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "DC Barrel Jack with an internal switch"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2bbe2e5b-d0e0-43ad-83c4-ef83240df8f2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC Part #" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98b869c1-5e0c-489a-be6f-43d390647c6e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -14.02 -4.62)
+		(end -14.02 4.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c39c939-9fab-4a58-80cc-151eba05792a")
+	)
+	(fp_line
+		(start -14.02 4.62)
+		(end -5.9 4.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "50975ab9-ecde-4d0b-a6c9-0171f6b08ee6")
+	)
+	(fp_line
+		(start -0.5 4.62)
+		(end 0.72 4.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "572a3e43-3031-40a2-a993-b13178b42a97")
+	)
+	(fp_line
+		(start 0.72 -4.62)
+		(end -14.02 -4.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ea36e9a-c5ec-47eb-8883-c850d06db667")
+	)
+	(fp_line
+		(start 0.72 -2.95)
+		(end 0.72 -4.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d6a757bb-1c44-4934-8aff-b53c3e6b6640")
+	)
+	(fp_line
+		(start 0.72 4.62)
+		(end 0.72 2.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41f6b8d5-580d-46d1-abf9-be319b92e53b")
+	)
+	(fp_line
+		(start -14.4 -5)
+		(end 1.1 -5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aa9f0c3a-99cf-467b-971a-7a4897db0167")
+	)
+	(fp_line
+		(start -14.4 5)
+		(end -14.4 -5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3ce4856c-7cc5-4402-beee-ea5f2aa894b3")
+	)
+	(fp_line
+		(start -6.2 5)
+		(end -14.4 5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e96fdb87-3da8-406c-b8dc-b173851804a5")
+	)
+	(fp_line
+		(start -6.2 6.2)
+		(end -6.2 5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "38d42670-d4b5-44f3-b16f-12d390a3160b")
+	)
+	(fp_line
+		(start 0.1 5)
+		(end 0.1 6.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "94476f3b-4b7c-4ae9-8047-ada15de978ba")
+	)
+	(fp_line
+		(start 0.1 6.2)
+		(end -6.2 6.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cc585938-504b-4b54-8682-69507e7040df")
+	)
+	(fp_line
+		(start 1.1 -5)
+		(end 1.1 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5b7b160d-7475-4a36-b7af-ed2959789a99")
+	)
+	(fp_line
+		(start 1.1 -3.25)
+		(end 1.5 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "66b124ee-0bcc-429a-a42a-744ed1d581df")
+	)
+	(fp_line
+		(start 1.1 3.25)
+		(end 1.1 5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d8a9a965-bceb-40da-adfd-39d1923ec4ed")
+	)
+	(fp_line
+		(start 1.1 5)
+		(end 0.1 5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3900dff5-ea11-4fa2-bc4b-115d4c2ed4f8")
+	)
+	(fp_line
+		(start 1.5 -3.25)
+		(end 1.5 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9190a186-5d11-4e5a-b2a6-3d46d0dbe886")
+	)
+	(fp_line
+		(start 1.5 3.25)
+		(end 1.1 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ca797fed-ffa7-4bf1-a1c6-cce9583d7d02")
+	)
+	(fp_rect
+		(start -13.9 -4.5)
+		(end 0.6 4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "d9a151e6-01fb-4a92-977a-c7b17821231f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.9 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "311806dd-2cc5-40ba-8306-7c8b6e3adaa0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2 4.5)
+		(drill oval 1 3.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2d6b43f7-77ca-4106-86e4-0fafcddc8061")
+	)
+	(pad "2" thru_hole oval
+		(at -6.2 0)
+		(size 2 4)
+		(drill oval 1 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "616d512e-5c04-4c4a-8619-35388d381b9d")
+	)
+	(pad "3" thru_hole oval
+		(at -3.2 4.7 90)
+		(size 2 4)
+		(drill oval 1 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9e71d038-32ee-4d8b-a9d0-c9a707f88eb3")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
